@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=\
+	Signika+Negative:wght@300&family=Spline+Sans+Mono:wght@300&display=swap');
+/*@import url('https://cdn.jsdelivr.net/gh/YashAgarwal1201/cranberry@main/default-styles.css');*/
+@import url('https://YashAgarwal1201.github.io/cranberry/default-styles.css');
+/*@import url('defaultCSS.css');*/
+
+h1, h2, h3, i, iframe {
+	font-family: 'Signika Negative', sans-serif; 
+}
+p, button, a, span, summary, details, label, ul, li, div, content *, section { 
+	font-family: 'Fresca', sans-serif;
+}
+input::placeholder, textarea::placeholder, input, textarea, strong, u {
+	font-family: 'Spline Sans Mono', monospace;
+}
+
+.body {
+	padding: 5px;
+	color: white;
+	text-align: center;
+	background-color: tan;
+}
+.menu {
+	width: 400px;
+	margin: auto;
+}
+.menu table {
+	display: inline-table;
+	width: 100%;
+	font-weight: bold;
+}
+table td {
+	padding: 7px;
+	background-color: saddlebrown;
+	color: white;
+}
+.order {
+	margin-top: 100px;
+	width: 100%;
+	padding: 25px;
+	border-radius: 15px;
+	background-color: saddlebrown;
+	text-align: left;
+}
+.order section {
+	cursor: pointer;
+	background-color: tan;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 7px;
+}
+#total {
+	display: none;
+}
+.bill {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 10px;
+	width: 350px;
+	height: 95%;
+	border-radius: 15px;
+	background-color: saddlebrown;
+	box-shadow: 10px 10px 7px black;
+}
+.item {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.item-name {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.item-addon {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+button {
+	background-color: white;
+	color: saddlebrown;
+	border-radius: 25px;
+	padding: 10px 15px;
+}
